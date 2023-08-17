@@ -1,0 +1,1 @@
+https://blog-test-ruby.vercel.app/blog
