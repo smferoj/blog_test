@@ -2,7 +2,7 @@ import React from "react";
 
 import dataSet from "../../../../data/blogData.json";
 
-const PostPage = ({ params }: { params: { id: string } }) => {
+const PostPage = ({ params }: { params: { id: string }}) => {
   const id = params.id;
 
   const post = dataSet.find(item => item.id === parseInt(id));
